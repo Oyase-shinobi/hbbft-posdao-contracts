@@ -10,7 +10,7 @@ async function compile(dir, contractName) {
       }
     },
     settings: {
-      optimizer: {
+      optimizer: {                  
         enabled: true,
         runs: 200
       },
